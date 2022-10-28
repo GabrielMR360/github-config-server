@@ -3,8 +3,8 @@ spring:
     name: greeting-microservice
 
 greeting-microservice:
-  greeting: "Ciao"
-  default-value: "Pizza"
+  greeting: "Ciao Ciao"
+  default-value: "2 Pizza"
 
 management:
   endpoints:

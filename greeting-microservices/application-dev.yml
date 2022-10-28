@@ -3,7 +3,7 @@ spring:
     name: greeting-microservice
 
 greeting-microservice:
-  greeting: "Hello Every Body"
+  greeting: "Hi my english ins't very good!"
   default-value: "It's nice to see you again!!"
 
 management:

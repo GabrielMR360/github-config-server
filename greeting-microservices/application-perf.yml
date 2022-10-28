@@ -4,7 +4,7 @@ spring:
 
 greeting-microservice:
   greeting: "Hola"
-  default-value: "Que tal?"
+  default-value: "La garantia son nosotros"
 
 management:
   endpoints:
