@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: greeting-microservice
+
+greeting-microservice:
+  greeting: "Hola"
+  default-value: "Que tal?"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'

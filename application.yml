@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: greeting-microservice
+
+greeting-microservice:
+  greeting: "Hello Every Body"
+  default-value: "It's nice to see you again!!"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'

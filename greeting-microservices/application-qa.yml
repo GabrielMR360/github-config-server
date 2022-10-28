@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: greeting-microservice
+
+greeting-microservice:
+  greeting: "Ciao"
+  default-value: "Pizza"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
