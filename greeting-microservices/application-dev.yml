@@ -3,8 +3,8 @@ spring:
     name: greeting-microservice
 
 greeting-microservice:
-  greeting: "Hi my english ins't very good!"
-  default-value: "It's nice to see you again!!"
+  greeting: "Empiricus"
+  default-value: "Empiricus Empiricus"
 
 management:
   endpoints:
